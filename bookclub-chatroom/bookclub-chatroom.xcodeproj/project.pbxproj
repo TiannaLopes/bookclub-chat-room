@@ -14,6 +14,16 @@
 		5F77478B2B57846E00391CC6 /* bookclub_chatroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77478A2B57846E00391CC6 /* bookclub_chatroomTests.swift */; };
 		5F7747952B57846E00391CC6 /* bookclub_chatroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7747942B57846E00391CC6 /* bookclub_chatroomUITests.swift */; };
 		5F7747972B57846E00391CC6 /* bookclub_chatroomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7747962B57846E00391CC6 /* bookclub_chatroomUITestsLaunchTests.swift */; };
+		5F7747A52B58191000391CC6 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7747A42B58191000391CC6 /* TitleRow.swift */; };
+		5F7747A82B581C5800391CC6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7747A72B581C5800391CC6 /* Message.swift */; };
+		5F7747AA2B581CC100391CC6 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7747A92B581CC100391CC6 /* MessageBubble.swift */; };
+		5F7747AC2B581F4300391CC6 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7747AB2B581F4300391CC6 /* Extenstions.swift */; };
+		5F7747AE2B581FCC00391CC6 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7747AD2B581FCC00391CC6 /* MessageField.swift */; };
+		5F7747B02B5821D300391CC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F7747AF2B5821D300391CC6 /* GoogleService-Info.plist */; };
+		5F7747B32B58225000391CC6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5F7747B22B58225000391CC6 /* FirebaseFirestore */; };
+		5F7747B52B58225000391CC6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5F7747B42B58225000391CC6 /* FirebaseFirestoreSwift */; };
+		5F7747B72B5823B700391CC6 /* MessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7747B62B5823B700391CC6 /* MessagesManager.swift */; };
+		5F7747B92B58251F00391CC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F7747B82B58251F00391CC6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,14 @@
 		5F7747902B57846E00391CC6 /* bookclub-chatroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bookclub-chatroomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7747942B57846E00391CC6 /* bookclub_chatroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookclub_chatroomUITests.swift; sourceTree = "<group>"; };
 		5F7747962B57846E00391CC6 /* bookclub_chatroomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookclub_chatroomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F7747A42B58191000391CC6 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		5F7747A72B581C5800391CC6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5F7747A92B581CC100391CC6 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		5F7747AB2B581F4300391CC6 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		5F7747AD2B581FCC00391CC6 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
+		5F7747AF2B5821D300391CC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F7747B62B5823B700391CC6 /* MessagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesManager.swift; sourceTree = "<group>"; };
+		5F7747B82B58251F00391CC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7747B32B58225000391CC6 /* FirebaseFirestore in Frameworks */,
+				5F7747B52B58225000391CC6 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,7 @@
 		5F77476D2B57846C00391CC6 = {
 			isa = PBXGroup;
 			children = (
+				5F7747B82B58251F00391CC6 /* GoogleService-Info.plist */,
 				5F7747782B57846C00391CC6 /* bookclub-chatroom */,
 				5F7747892B57846E00391CC6 /* bookclub-chatroomTests */,
 				5F7747932B57846E00391CC6 /* bookclub-chatroomUITests */,
@@ -94,10 +115,14 @@
 		5F7747782B57846C00391CC6 /* bookclub-chatroom */ = {
 			isa = PBXGroup;
 			children = (
+				5F7747A62B581C4700391CC6 /* Models */,
+				5F7747A32B58190100391CC6 /* Components */,
 				5F7747792B57846C00391CC6 /* bookclub_chatroomApp.swift */,
 				5F77477B2B57846C00391CC6 /* ContentView.swift */,
 				5F77477D2B57846E00391CC6 /* Assets.xcassets */,
 				5F77477F2B57846E00391CC6 /* Preview Content */,
+				5F7747AB2B581F4300391CC6 /* Extenstions.swift */,
+				5F7747B62B5823B700391CC6 /* MessagesManager.swift */,
 			);
 			path = "bookclub-chatroom";
 			sourceTree = "<group>";
@@ -123,8 +148,27 @@
 			children = (
 				5F7747942B57846E00391CC6 /* bookclub_chatroomUITests.swift */,
 				5F7747962B57846E00391CC6 /* bookclub_chatroomUITestsLaunchTests.swift */,
+				5F7747AF2B5821D300391CC6 /* GoogleService-Info.plist */,
 			);
 			path = "bookclub-chatroomUITests";
+			sourceTree = "<group>";
+		};
+		5F7747A32B58190100391CC6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5F7747A42B58191000391CC6 /* TitleRow.swift */,
+				5F7747A92B581CC100391CC6 /* MessageBubble.swift */,
+				5F7747AD2B581FCC00391CC6 /* MessageField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5F7747A62B581C4700391CC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F7747A72B581C5800391CC6 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +187,10 @@
 			dependencies = (
 			);
 			name = "bookclub-chatroom";
+			packageProductDependencies = (
+				5F7747B22B58225000391CC6 /* FirebaseFirestore */,
+				5F7747B42B58225000391CC6 /* FirebaseFirestoreSwift */,
+			);
 			productName = "bookclub-chatroom";
 			productReference = 5F7747762B57846C00391CC6 /* bookclub-chatroom.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 5F77476D2B57846C00391CC6;
+			packageReferences = (
+				5F7747B12B58225000391CC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5F7747772B57846C00391CC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +284,7 @@
 			files = (
 				5F7747812B57846E00391CC6 /* Preview Assets.xcassets in Resources */,
 				5F77477E2B57846E00391CC6 /* Assets.xcassets in Resources */,
+				5F7747B92B58251F00391CC6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7747B02B5821D300391CC6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +311,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F77477C2B57846C00391CC6 /* ContentView.swift in Sources */,
+				5F7747A82B581C5800391CC6 /* Message.swift in Sources */,
+				5F7747AA2B581CC100391CC6 /* MessageBubble.swift in Sources */,
+				5F7747B72B5823B700391CC6 /* MessagesManager.swift in Sources */,
+				5F7747AE2B581FCC00391CC6 /* MessageField.swift in Sources */,
 				5F77477A2B57846C00391CC6 /* bookclub_chatroomApp.swift in Sources */,
+				5F7747AC2B581F4300391CC6 /* Extenstions.swift in Sources */,
+				5F7747A52B58191000391CC6 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +642,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F7747B12B58225000391CC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F7747B22B58225000391CC6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F7747B12B58225000391CC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5F7747B42B58225000391CC6 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F7747B12B58225000391CC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5F77476E2B57846C00391CC6 /* Project object */;
 }
